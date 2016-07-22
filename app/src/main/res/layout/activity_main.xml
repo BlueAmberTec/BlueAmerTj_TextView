@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+    <com.hengda.smart.blueamer.textview.KaitiTextView
+        android:id="@+id/tv_kaiti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp" />
+
+    <com.hengda.smart.blueamer.textview.XinkaiTextView
+        android:id="@+id/tv_xingkai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"/>
+
+    <com.hengda.smart.blueamer.textview.KaitiTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:text="举头望明月"/>
+
+    <com.hengda.smart.blueamer.textview.XinkaiTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:text="低头思故乡"/>
+
+    <com.hengda.smart.blueamer.textview.LitiTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="23sp"
+        android:text="   人生本就该简简单单的做好每时每刻的自己，而不应该把过多的期望，放在未来，因为时光是最无情的东西。先不说未来的人或事的改变，说不定未来变的是你自己。现在的你，或许颓废不堪，或许满怀斗志，或许忙忙碌碌，或许无所事事。但未来的你会是怎样，谁知道呢？"/>
+
+</LinearLayout>
